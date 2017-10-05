@@ -1,0 +1,22 @@
+---
+# This playbook deploys the whole application stack in this site.
+
+- copy:
+    src: C:\Users\kenji.a.sato\Desktop\Ansible test/test.txt
+    dest: /etc/ test.txt
+    owner: Kenji
+    
+    
+    
+    - hosts: localhost
+  tasks:
+   - name:zip a html file
+   
+   
+   
+- copy:
+    src: C:\Users\kenji.a.sato\Desktop\Ansible test/test.txt
+    dest: /etc/ test.txt
+    owner: Kenji
+  
+
