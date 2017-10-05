@@ -1,22 +1,11 @@
 ---
 # This playbook deploys the whole application stack in this site.
+#ec2-user@18.221.248.188
 
-- copy:
-    src: C:\Users\kenji.a.sato\Desktop\Ansible test/test.txt
-    dest: /etc/ test.txt
-    owner: Kenji
-    
-    
-    
-    - hosts: localhost
-  tasks:
-   - name:zip a html file
-   
-   
-   
-- copy:
-    src: C:\Users\kenji.a.sato\Desktop\Ansible test/test.txt
-    dest: /etc/ test.txt
-    owner: Kenji
-  
+all:
+  hosts: 
+    ec2-user@18.221.248.188
+
+#  tasks:
+#  - ping:
 
