@@ -1,8 +1,11 @@
 Controlling Server:
 ssh -i sato.pem ubuntu@kenjitest.hopto.org
+
 ssh ubuntu@52.14.239.169
 ssh -i MelodyT.pem ec2-user@18.221.248.188
 ssh -i MelodyT.pem ec2-user@melodytch.hopto.org
+
+ssh -i MelodyT.pem ec2-user@ec2-18-221-248-188.us-east-2.compute.amazonaws.com
 
 
 Sending file from computer:
